@@ -1,0 +1,245 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe - Contact Us</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Change from left to right */
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 2em auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5em 0;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Background images for each page */
+body.index {
+    background-image: url('images/home-background.jpg');
+    background-color: #ffefd5; /* Fallback color */
+}
+
+body.products {
+    background-image: url('images/products-background.jpg');
+    background-color: #ffe4e1; /* Fallback color */
+}
+
+body
+{
+    background-image: url("https://images.pexels.com/photos/1813466/pexels-photo-1813466.jpeg?cs=srgb&dl=pexels-lina-1813466.jpg&fm=jpg");
+}
+
+
+/* Adding colors to main sections */
+main h2 {
+    color: #333;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+main p, main ul {
+    color: #555;
+    font-size: 1.2em;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main ul li {
+    background-color: #f0f0f0;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+main ul li:hover {
+    background-color: #e0e0e0;
+}
+
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding: 2em;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 100%;
+    max-width: 600px;
+}
+
+.product-image {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 1em;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h3 {
+    margin: 0;
+    color: #333;
+}
+
+    </style>
+</head>
+<body class="contact">
+    <header>
+        <img src="image.png" alt="Cafe Logo" class="logo">
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="2.html">Home</a></li>
+                <li><a href="1.html">Products</a></li>
+                <li><a href="3.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required="" placeholder="YOUR NAME ">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="" placeholder="EMAIL-ID HERE">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required=""placeholder="SEND YOUR MESSAGE"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>Our Locations</h2>
+            <h3>Company Office</h3>
+            <p>
+                Cafe Beans Company Office<br>
+                123 Corporate Avenue<br>
+                Phase 8, Industrial Area<br>
+                Mohali, Punjab 160055<br>
+                India
+            </p>
+            <h3>Sales Office</h3>
+            <p>
+                Cafe Beans Sales Office<br>
+                456 Business Street<br>
+                Sector 74<br>
+                Mohali, Punjab 160062<br>
+                India
+            </p>
+            <h3>Outlet</h3>
+            <p>
+                Cafe Beans Outlet<br>
+                789 Market Road<br>
+                Sector 70<br>
+                Mohali, Punjab 160071<br>
+                India
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Cafe Beans. All rights reserved.</p>
+    </footer>
+
+
+</body></html>
